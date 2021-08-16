@@ -45,6 +45,8 @@ h1{
 
 @media screen and (max-width: 768px){
     .container{
+        display: flex;
+        flex-direction: column;
         width: 90%;
         margin-top: 10%;
    }
