@@ -6,13 +6,28 @@ body{
     background-repeat: no-repeat;
     background-size: 100% 110%;
     background-attachment: fixed; 
-    
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    text-align: center;
+    width: 40%;
+}
+input{
+    width: 40%;
+    margin: auto;
 }
 #show-btn{
-    width: 60px;
+    margin: auto;
+    margin-top: 10px;
+    width: 80px;
+    height: 30px;
+    background-color: #F6A9A9;
+    cursor: pointer;
 }
 #show-btn:hover{
-    background-color: #F6A9A9;
+    background-color: #F43B86;
 }
 h1{
     color: #F43B86;
@@ -20,11 +35,17 @@ h1{
 
 /* #result{
     width: 450px;
-    height: 2px;
     border: 1px solid #FDF5CA;
     margin: auto;
-    padding: 50px;
+    margin-top: 10px; 
+    padding: 30px;
     background: linear-gradient(to right, #F6A9A9, #FFBF86, #FFF47D, #C2F784);
     border-radius: 5px;
-    text-align: center;
 } */
+
+@media screen and (max-width: 768px){
+    .container{
+        width: 90%;
+        margin-top: 10%;
+   }
+}
