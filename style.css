@@ -1,0 +1,30 @@
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-image: url("birthday.webp");
+    margin: auto;
+    text-align: center;
+    background-repeat: no-repeat;
+    background-size: 100% 110%;
+    background-attachment: fixed; 
+    
+}
+#show-btn{
+    width: 60px;
+}
+#show-btn:hover{
+    background-color: #F6A9A9;
+}
+h1{
+    color: #F43B86;
+}
+
+/* #result{
+    width: 450px;
+    height: 2px;
+    border: 1px solid #FDF5CA;
+    margin: auto;
+    padding: 50px;
+    background: linear-gradient(to right, #F6A9A9, #FFBF86, #FFF47D, #C2F784);
+    border-radius: 5px;
+    text-align: center;
+} */
