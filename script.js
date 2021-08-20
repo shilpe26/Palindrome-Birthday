@@ -152,15 +152,18 @@ function clickHandler(e){
             resultRef.innerText = `The next Palindrome date is ${nextDate.day}-${nextDate.month}-${nextDate.year}, you missed it by ${ctr} days! 😥`;
         }
 
+    }else{
+        resultRef.innerText = `Please Enter the Date!`;
     }
-    document.querySelector('#result').style.cssText = `width: 450px;
-    height: 2px;
+    document.querySelector('#result').style.cssText = ` width: 350px;
+    display: flex;
+        flex-direction: column;
     border: 1px solid #FDF5CA;
     margin: auto;
-    padding: 50px;
+     margin-top: 10px; 
+     padding: 30px; 
     background: linear-gradient(to right, #F6A9A9, #FFBF86, #FFF47D, #C2F784);
-    border-radius: 5px;
-    text-align: center;`;
+    border-radius: 5px;`;
 }
 
 showBtnRef.addEventListener('click', clickHandler);
